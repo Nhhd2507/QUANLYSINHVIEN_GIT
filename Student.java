@@ -14,4 +14,6 @@ public class Student {
     public void hienThi() {
         System.out.println("Ma SV: " + maSV + " | Ho ten: " + hoTen + " | Ngay sinh: " + ngaySinh);
     }
+    public boolean timKiemTheoMaSV(String ma) {
+    return this.maSV.equalsIgnoreCase(ma);
 }
